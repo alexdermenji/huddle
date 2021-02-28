@@ -53,6 +53,7 @@ table {
 }
 
 .wrapper {
+  height: 100vh;
   padding-top: 64px;
   overflow: hidden;
   min-width: 1440px;
@@ -95,6 +96,10 @@ table {
   width: 1280px;
 }
 
+.header {
+  margin-bottom: 97px;
+}
+
 @media all and (max-width: 375px) {
   .container {
     width: 300px;
@@ -106,7 +111,7 @@ table {
 }
 
 .logo {
-  width: 200px;
+  width: 215px;
   height: 32px;
 }
 
@@ -135,7 +140,7 @@ table {
 }
 
 .content__image {
-  flex: 0 0 54%;
+  flex: 0 0 55%;
 }
 
 .content__img {
@@ -144,7 +149,7 @@ table {
 }
 
 .description {
-  padding-top: 20px;
+  padding-top: 43px;
   width: 40%;
   color: #fff;
 }
